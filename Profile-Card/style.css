@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #00ffff42;
+}
+
+.card {
+  height: 500px;
+  width: 300px;
+  margin: 40px auto;
+  border-radius: 5px;
+  box-shadow: 3px 4px 10px rgb(0, 0, 0);
+  transition: 1s;
+  background-color: white;
+}
+
+.card:hover {
+  box-shadow: 3px 4px 10px gold;
+  transform: scale(1.1);
+}
+
+.profile-img {
+  width: 100%;
+  /* height: 50%; */
+}
+
+.profile-img img {
+  width: 100%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.profile-description {
+  text-align: center;
+}
+
+.profile-description .name {
+  color: rgb(190, 161, 0);
+  font-size: 2rem;
+  margin: 0.7em 0.7em 0 0.7em;
+}
+
+.profile-description .bio {
+  color: #333333af;
+  font-size: 1rem;
+  margin: 1em;
+}
+
+.profile-description .description {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.social-media {
+  margin: 20px;
+}
+
+.social-media i {
+  margin: 0 5px;
+}
+
+.social-media a {
+  font-size: 1rem;
+  transition: 1s;
+}
+
+.social-media a:hover {
+  font-size: 1.3rem;
+  color: gold;
+}
