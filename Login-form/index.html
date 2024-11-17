@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Login Form with HTML | CSS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="login-form">
+      <h2 class="heading">Login</h2>
+      <form>
+        <div id="user-container">
+          <label for="username">Username</label>
+          <br />
+          <i class="fa-regular fa-user"></i>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Type your username"
+          />
+        </div>
+        <br /><br />
+        <div id="pass-container">
+          <label for="password">Password</label>
+          <br />
+          <i class="fa-solid fa-user-lock"></i>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Type your password"
+          />
+          <p><a href="">Forget password?</a></p>
+        </div>
+        <br /><br />
+        <input type="submit" value="Login" id="btn" />
+      </form>
+      <p class="signup-option">Or Signing Up Using</p>
+      <div class="social-icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-braids fa-google"></i>
+      </div>
+
+      <div id="last-item">
+        <p class="signup-option">Or Signing Up Using</p>
+        <p class="sign-up">Sign up</p>
+      </div>
+    </div>
+  </body>
+</html>
