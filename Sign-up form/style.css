@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+
+body {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.card {
+  width: 300px;
+  height: 500px;
+  border: 2px solid rgba(0, 0, 0, 0.123);
+  border-radius: 5px;
+  margin: 70px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.top h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.top p {
+  font-size: 1rem;
+  font-weight: 520;
+  text-align: center;
+}
+
+.center {
+  width: 100%;
+  text-align: center;
+}
+
+.center button,
+input {
+  width: 80%;
+}
+
+input {
+  border: none;
+  outline: none;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.199);
+  font-size: 1rem;
+  padding: 0.3em;
+  color: rgba(0, 0, 0, 0.521);
+}
+
+.center button {
+  height: 2.5em;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  background-color: #1976d2;
+  border: none;
+  border-radius: 3px;
+}
+
+.check {
+  width: 100%;
+  display: flex;
+  padding: 5px 0px 0px 35px;
+  gap: 10px;
+}
+
+#remeber-me {
+  width: 13px;
+}
+
+label {
+  font-weight: 500;
+}
+
+.centered-text {
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.568);
+  font-weight: 600;
+}
+
+.bottom {
+  height: 7%;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bottom .primary-btn {
+  width: 25%;
+  height: 80%;
+  background-color: transparent;
+  border: 2px solid #1976d24f;
+  color: #1976d2;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.63);
+}
+
+p a {
+  color: #1976d2;
+  font-weight: 500;
+}
